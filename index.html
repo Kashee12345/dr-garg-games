@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dr. Garg Learning Games</title>
+<meta name="description" content="Free study games for anatomy and physiology and chiropractic board review, by Akash Garg.">
+<style>
+:root{--ink:#1c2340;--mute:#5e6486;--paper:#fbfaf6;--line:#e3dccb;--teal:#17a398;--amber:#f2b84b;--navy:#121831;--card:#ffffff}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--ink:#eef0fb;--mute:#aab0d6;--paper:#10142a;--line:#2b3158;--card:#181d38}}
+:root[data-theme="dark"]{--ink:#eef0fb;--mute:#aab0d6;--paper:#10142a;--line:#2b3158;--card:#181d38}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.5 "Segoe UI",system-ui,-apple-system,Roboto,sans-serif}
+header{background:var(--navy);color:#fff;padding:36px 16px 30px;text-align:center}
+header h1{margin:0;font-size:clamp(28px,5vw,44px);letter-spacing:.01em}header p{margin:8px auto 0;max-width:640px;color:#c9cdea}
+main{max-width:1080px;margin:0 auto;padding:22px 16px 40px}
+h2{font-size:22px;margin:26px 0 10px}h2 small{font-size:14px;color:var(--mute);font-weight:500;margin-left:6px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px}
+.g{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;display:flex;flex-direction:column}
+.g img{width:100%;aspect-ratio:16/10;object-fit:cover;display:block;background:#222;image-rendering:pixelated}
+.g .b{padding:12px 14px 14px;display:flex;flex-direction:column;gap:6px;flex:1}
+.g h3{margin:0;font-size:19px}.g p{margin:0;color:var(--mute);font-size:14.5px}
+.g ul{margin:2px 0 0;padding-left:18px;font-size:14px;color:var(--mute)}
+.tag{display:inline-block;font-size:12px;font-weight:700;border-radius:99px;padding:2px 9px;background:rgba(23,163,152,.14);color:var(--teal);margin-right:4px}
+.play{margin-top:auto;display:inline-block;text-align:center;background:var(--teal);color:#fff;text-decoration:none;font-weight:800;border-radius:10px;padding:10px 14px}
+.play:hover{filter:brightness(1.08)}.play:focus-visible{outline:3px solid var(--amber);outline-offset:2px}
+.note{border:1px solid var(--line);border-radius:12px;padding:12px 14px;background:var(--card);color:var(--mute);font-size:14.5px}
+footer{max-width:1080px;margin:0 auto;padding:0 16px 40px;color:var(--mute);font-size:13.5px}
+footer a{color:inherit}
+</style>
+</head>
+<body>
+<header>
+  <h1>Dr. Garg Learning Games</h1>
+  <p>Free study games for anatomy and physiology and for chiropractic board review. Everything runs in your browser, with no account and no install. Your progress stays on your own device.</p>
+</header>
+<main>
+  <h2>Anatomy and Physiology <small>first year college level</small></h2>
+  <div class="grid">
+    <article class="g"><img src="img/koc.jpg" alt="Kingdom of Corpus castle town"><div class="b"><div><span class="tag">15 lands</span><span class="tag">900 questions</span></div><h3>Kingdom of Corpus</h3><p>A pixel adventure across fifteen lands of the body. Calm each guardian with what you know.</p><ul><li>About 150 teaching diagrams and printable study notes</li><li>Study Hall with spaced Daily Review and skill drills</li><li>"Why that answer is tempting" feedback on every wrong choice</li></ul><a class="play" href="kingdom-of-corpus/">Play Kingdom of Corpus</a></div></article>
+    <article class="g"><img src="img/adv.jpg" alt="Gate of the Four Valves puzzle"><div class="b"><div><span class="tag">New</span><span class="tag">Puzzles</span></div><h3>Kingdom of Corpus: Adventure Edition</h3><p>Everything in the main game, plus physiology shrines, two phase guardians, villager cases, a muscle training ground and a Lore Codex.</p><a class="play" href="kingdom-of-corpus-adventure/">Play the Adventure Edition</a></div></article>
+  </div>
+  <h2>Chiropractic Board Review <small>NBCE Part III and Part IV style practice</small></h2>
+  <div class="grid">
+    <article class="g"><img src="img/cm.jpg" alt="Spine Street Clinic"><div class="b"><div><span class="tag">200 cases</span><span class="tag">Part III</span></div><h3>Chiro Mystery</h3><p>Walk into Spine Street Clinic and work board style patient cases from history to management, with mock board exams and real radiographs.</p><a class="play" href="chiro-mystery/">Play Chiro Mystery</a></div></article>
+    <article class="g"><img src="img/ed.jpg" alt="Exam Day station hallway"><div class="b"><div><span class="tag">48 stations</span><span class="tag">Part IV</span></div><h3>Exam Day</h3><p>Live a full practical exam day: check in, read the door card, interview and examine a simulated patient, write the SOAP note, and try the technique station.</p><a class="play" href="exam-day/">Play Exam Day</a></div></article>
+    <article class="g"><img src="img/fr.jpg" alt="Film Room reading room"><div class="b"><div><span class="tag">266 films</span><span class="tag">X-ray</span></div><h3>Film Room</h3><p>Read real radiographs from open collections: name the film, spot the lesion, make the management call and measure in the lab.</p><a class="play" href="film-room/">Play Film Room</a></div></article>
+  </div>
+  <h2>Good to know</h2>
+  <div class="note">These are independent practice tools. They are not affiliated with or endorsed by the NBCE or any school, and practice scores do not predict official results. Patient cases are teaching cases, not clinical rules. Each game has a Save code button so you can move your progress to another device. The three chiropractic games share your name and progress strip when you open them from the same browser.</div>
+</main>
+<footer>
+  <p>Created by Dr. Akash Garg. Games and teaching content licensed CC BY-NC-SA 4.0; third party art and radiographs keep their own licenses (see LICENSE).</p>
+  <p>Art credits: Modern Interiors, Modern Exteriors, Modern Office and Modern User Interface by LimeZu (limezu.itch.io). Kingdom of Corpus art and music: Ninja Adventure by Pixel-boy and AAA (CC0). Radiographs in Film Room and Chiro Mystery keep their open licenses, credited on every film. Teaching diagrams in Kingdom of Corpus follow OpenStax Anatomy and Physiology 2e (CC BY 4.0).</p>
+</footer>
+</body>
+</html>
