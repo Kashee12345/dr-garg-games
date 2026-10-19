@@ -1,0 +1,5 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Film Room</title>
+<style>body{margin:0;background:#121831;color:#e9ebf8;font:16px/1.5 "Segoe UI",system-ui,sans-serif;display:grid;place-items:center;height:100vh}.b{width:240px;height:8px;border-radius:4px;background:#2b3158;overflow:hidden;margin-top:10px}.b i{display:block;height:100%;width:0;background:#17a398;transition:width .2s}</style></head>
+<body><div><b>Film Room</b><div class="b"><i id="bar"></i></div><p id="msg" style="font-size:13px;color:#aab0d6">Loading the game, about 15 MB. This happens once per visit.</p></div>
+<script>(function(){var N=5,got=0;function done(){var h=window.GP.join('');document.open();document.write(h);document.close();}
+for(var i=0;i<N;i++){var s=document.createElement('script');s.src='p'+i+'.js';s.onload=function(){got++;document.getElementById('bar').style.width=(got/N*100)+'%';if(got===N)setTimeout(done,30);};s.onerror=function(){document.getElementById('msg').textContent='A part of the game did not load. Please refresh the page.';};document.head.appendChild(s);}})();</script></body></html>
